@@ -68,6 +68,12 @@ a:hover {
 	color: #D89000;
 }
 
+#about, #timeline, #gallery {
+	border-left: 3px solid #0D160B;
+	border-right: 3px solid #0D160B;
+	border-bottom: 3px solid #0D160B;
+}
+
 /* MAIN CONTENT */
 
 #about p {
@@ -175,6 +181,10 @@ a:hover {
 	padding: 0 10px;
 }
 
+#links {
+	border-left: 3px solid #0D160B;
+	border-right: 3px solid #0D160B;	
+}
 /* FOOTER */
 
 footer{
