@@ -1,0 +1,191 @@
+/* GENERAL */
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #BFBDC1;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Space Mono', sans-serif;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 2em;
+}
+
+h3 {
+	margin: 10px 0;
+	padding: 5px;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+/* HEADER */
+
+header {
+	background-color: #0D160B;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+}
+
+nav {
+	text-align: center;
+	margin-top: 20px;
+}
+
+ul li {
+	text-decoration: none;
+	display: inline;
+	padding-left: 10px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D89000;
+}
+
+/* MAIN CONTENT */
+
+#about p {
+	padding: 20px;
+	margin-top: 0;
+}
+
+#about {
+	background-color: #484F90;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+#about img {
+	width: 100%;
+	max-width: 650px;
+	margin: auto;
+	display: block; 
+}
+
+.yellow-highlight {
+	font-family: 'Space Mono', sans-serif;
+	font-weight: 700;
+	color: #E09809;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+/* IMAGE GALLERY */
+
+#gallery p {
+	padding: 20px;
+}
+
+#gallery {
+	background-color: #E09809;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.gallery-images {
+	width: 75%;
+	margin-top: 20px;
+	margin-left: 5px;
+	max-width: 250px;
+	min-height: 320px;
+	max-height: 320px;
+	border: 2px solid white;
+}
+
+/* TIMELINE */
+
+#timeline p {
+	padding: 20px;
+} 
+
+#timeline{
+	background-color: #CB4646;
+	width: 85%;
+	margin: 0 auto;
+	font-size: .9em;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.timeline-dates {
+	background-color: #E09809;
+	padding: 5px;
+}
+
+#timeline ul li {
+	background-color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	margin: 5px auto;
+	width: 85%;
+	max-width: 650px;
+	font-size: .9em;
+	font-weight: bold;
+	text-align: left;
+	color: #484F90;
+
+}
+
+#timeline img {
+	margin: 10px 0;
+	max-width: 10%;
+}
+
+/* LINKS */
+
+#links {
+	background-color: #484F90;
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#links p {
+	padding: 0 10px;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #0D160B;
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	text-align: center;
+	font-size: .9em;
+}
+
+footer p {
+	padding-left: 5px;
+	padding-top: 10px;
+}
