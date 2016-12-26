@@ -39,6 +39,12 @@ ul {
 	margin: 0;
 }
 
+#about, #timeline, #gallery {
+	border-left: 3px solid #0D160B;
+	border-right: 3px solid #0D160B;
+	border-bottom: 3px solid #0D160B;
+}
+
 /* HEADER */
 
 header {
@@ -66,12 +72,6 @@ a {
 
 a:hover {
 	color: #D89000;
-}
-
-#about, #timeline, #gallery {
-	border-left: 3px solid #0D160B;
-	border-right: 3px solid #0D160B;
-	border-bottom: 3px solid #0D160B;
 }
 
 /* MAIN CONTENT */
