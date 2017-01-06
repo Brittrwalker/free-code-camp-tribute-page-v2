@@ -1,68 +1,10 @@
 /* GENERAL */
 
-html {
-	height: 100%;
-}
-
 body {
 	background-color: #BFBDC1;
-	color: white;
-	margin: 0;
-	padding: 0;
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
 	font-size: 16px;
-}
-
-h1 {
-	padding: 5px;
-	margin: 0;
-	text-align: center;
-	font-family: 'Space Mono', sans-serif;
-	font-size: 2em;
-}
-
-h3 {
-	margin: 10px 0;
-	padding: 5px;
-}
-
-h2 {
-	text-align: center;
-}
-
-ul {
-	padding: 0;
-	margin: 0;
-}
-
-#about, #timeline, #gallery {
-	border-left: 3px solid #0D160B;
-	border-right: 3px solid #0D160B;
-	border-bottom: 3px solid #0D160B;
-}
-
-/* HEADER */
-
-header {
-	background-color: #0D160B;
-	width: 100%;
-	height: 60px;
-	margin: 0 auto;
-}
-
-nav {
-	text-align: center;
-	margin-top: 20px;
-}
-
-ul li {
-	text-decoration: none;
-	display: inline;
-	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -74,28 +16,6 @@ a:hover {
 	color: #D89000;
 }
 
-/* MAIN CONTENT */
-
-#about p {
-	padding: 20px;
-	margin-top: 0;
-}
-
-#about {
-	background-color: #484F90;
-	width: 85%;
-	margin: 0 auto;
-	text-align: center;
-	overflow: hidden;
-}
-
-#about img {
-	width: 100%;
-	max-width: 650px;
-	margin: auto;
-	display: block; 
-}
-
 .yellow-highlight {
 	font-family: 'Space Mono', sans-serif;
 	font-weight: 700;
@@ -103,48 +23,82 @@ a:hover {
 	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
-/* IMAGE GALLERY */
+/* HEADER */
 
-#gallery p {
-	padding: 20px;
-}
-
-#gallery {
-	background-color: #E09809;
-	width: 85%;
-	margin: 0 auto;
-	padding: 30px 0;
+header {
+	background-color: #0D160B;
+	padding: 30px;
 	text-align: center;
 }
 
+nav ul li {
+	display: inline;
+	right-left: 5px;
+}
+
+#about, #timeline, #gallery {
+	border-left: 3px solid #0D160B;
+	border-right: 3px solid #0D160B;
+	border-bottom: 3px solid #0D160B;
+}
+
+p {
+	padding: 10px 25px;
+	line-height: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Space Mono', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+h2 {
+	text-align: center;
+	font-size: 22px;
+	padding: 15px;
+}
+
+/* ABOUT */
+
+#about {
+	background-color: #484F90;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#about img {
+	width: 100%;
+	margin: auto;
+}
+
+/* GALLERY */
+
+#gallery {
+	background-color: #E09809;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
 .gallery-images {
-	width: 75%;
-	margin-top: 20px;
-	margin-left: 5px;
-	max-width: 250px;
-	min-height: 320px;
-	max-height: 320px;
+	width: 85%;
+	margin: 10px 2.5px;
 	border: 2px solid white;
 }
 
 /* TIMELINE */
 
-#timeline p {
-	padding: 20px;
-} 
-
-#timeline{
+#timeline {
 	background-color: #CB4646;
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
-	padding: 20px 0;
-	font-size: .9em;
 	text-align: center;
-}
-
-.timeline-dates {
-	background-color: #E09809;
-	padding: 5px;
+	padding: 20px 0;
 }
 
 #timeline ul li {
@@ -152,9 +106,8 @@ a:hover {
 	color: #484F90;
 	display: block;
 	padding: 5px;
-	margin: 5px auto;
+	margin: 10px auto;
 	width: 85%;
-	max-width: 650px;
 	font-size: .9em;
 	font-weight: bold;
 	text-align: left;
@@ -162,40 +115,78 @@ a:hover {
 
 }
 
-#timeline img {
-	margin: 10px 0;
-	max-width: 10%;
+.timeline-dates {
+	background-color: #E09809;
+	padding: 5px;
 }
 
 /* LINKS */
 
 #links {
 	background-color: #484F90;
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	padding: 20px 0;
 }
 
-#links p {
-	padding: 0 10px;
-}
-
 #links {
 	border-left: 3px solid #0D160B;
-	border-right: 3px solid #0D160B;	
+	border-right: 3px solid #0D160B;
 }
+
 /* FOOTER */
 
-footer{
+footer {
 	background-color: #0D160B;
-	width: 100%;
-	height: 70px;
-	margin: 0;
+	padding: 10px;
 	text-align: center;
-	font-size: .9em;
 }
 
-footer p {
-	padding: 10px 5px 0 0;
+.footer-img {
+	max-width: 40px;
+	padding: 5px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 500px) {
+
+	.gallery-images {
+		max-width: 350px;
+	}
+
+	#timeline ul li {
+		max-width: 65%;
+	}
+
+	#about, #timeline, #gallery, #links {
+		width: 85%;	
+	}
+
+	#about img {
+		width: 85%;
+	}
+
+}
+
+@media screen and (min-width: 790px) {
+
+	.gallery-images {
+		max-width: 350px;
+		margin: 10px 1%;
+	}
+
+	#timeline ul li {
+		max-width: 50%;
+	}	
+
+	#about img {
+		max-width: 650px;
+	}
+
+	#about p {
+		margin: 20px 50px;
+	}
+
 }
