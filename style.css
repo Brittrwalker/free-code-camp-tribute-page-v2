@@ -190,3 +190,10 @@ footer {
 	}
 
 }
+
+@media screen and (max-width: 499px){ 
+	
+	#about, #timeline, #gallery, #links {
+		width: 100%;
+	}	 
+}
